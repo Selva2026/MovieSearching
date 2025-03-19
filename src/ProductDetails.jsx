@@ -22,7 +22,7 @@ function ProductDetails() {
   filterData();
   
   let snavigate = useNavigate(); 
-  if (!singleItem) return <div className='font-bold'>Loading...</div>;
+
   return (
     <div className='flex'>
       <div>
