@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function ProductDetails() {
   const { id } = useParams();
-
+alert(id);
   const [singleItem, setSingleItem]=useState(0);
 
   const filterData = async () => {
