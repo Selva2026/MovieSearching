@@ -9,7 +9,7 @@ alert(id);
 
   const filterData = async () => {
     try{
-    const response = await axios.get(`http://www.omdbapi.com/?i=${id}&apikey=c71b3518`);
+    const response = await axios.get(`https://www.omdbapi.com/?i=${id}&apikey=c71b3518`);
 
     setSingleItem(response.data);
    
