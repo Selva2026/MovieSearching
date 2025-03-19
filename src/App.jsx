@@ -23,7 +23,7 @@ function App() {
     try{
     const response = await axios.get(`https://www.omdbapi.com/?apikey=c71b3518&s=${searchTerm}&type=${searchType}`);
 
-    setItems(response.data.Search || [{Message : "Search Movie not found .....", Poster : "https://stickerji.in/wp-content/uploads/2022/09/106-scaled.webp"}]);
+    setItems(response.data.Search || [{Message : "Search For Entertainment .....", Poster : "https://moviereviewmom.com/wp-content/uploads/2018/09/searching-movie-poster.jpg"}]);
     } catch (error) {
       console.error("Error fetching movies:", error);
     }
