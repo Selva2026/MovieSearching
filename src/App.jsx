@@ -9,7 +9,7 @@ import ProductDetails from './ProductDetails'
 
 
 
-// export const movieContext = createContext();
+
 
 
 function App() {
